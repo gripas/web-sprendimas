@@ -1,0 +1,163 @@
+@import url('fonts/quicksand.css');
+@import url('fonts/halant.css');
+@import url('fonts/prompt.css');
+p {
+    font-family: Halant, serif;
+	margin-top: 0;
+    margin-bottom: 1rem;
+}
+h1, h2, h3, h4, h5 {
+    font-family: Quicksand, sans-serif;
+} 
+.h1-default { 
+	font-family: Prompt, sans-serif;
+	font-weight: 100;
+	letter-spacing: -2px;
+    word-spacing: -2px;
+	line-height:100%;
+}
+h1 {
+   font-size: 2.25rem;
+} 
+h2 {
+   font-size: 1.75rem;
+} 
+h3 {
+     font-size: 1.55rem;
+} 
+h4 {
+     font-size: 1.25rem;
+} 
+h5 {
+     font-size: 1rem;
+} 
+ 
+ hr {
+	 padding: 0px;
+ }
+
+dl, ol, ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+a {
+	color: #333;
+}
+.space {
+	border: 1px solid transparent;
+	padding: 1.1rem;
+}
+.txt-white { color: #FFF; }
+.txt-blue { color: #36B7EC; }
+.txt-blue-dark {color: #2B99C6;}
+.txt-dark { color: #484848; }
+.txt-orange { color: #DD800A; }
+.txt-size-20 { font-size: 20px; }
+.txt-grimy { color:#B4B4B4; } /*Murzina spalva*/
+
+hr.hr-brd { 
+	height:10px;
+	border-top: 1px solid #5F5F5F;
+	background-color: #DDDADA;
+}
+.footer-prg.txt-dark{ margin-top:8px; color:#86867A; font-size:12px;}
+.footer-h3.txt-dark{ margin-top:5px; color:#86867A; font-size:14px;}
+.h2-up { 
+    padding-top: 10px;
+	font-weight: 500;
+	font-variant: semi-condensed;
+	font-variant: small-caps;
+	font-style: normal;
+	font-family:Arial Narrow, sans-serif;
+	text-transform: uppercase;
+	font-size: 27px;
+}
+.h3-up { 
+	font-weight: 200;
+	font-variant: semi-condensed;
+	font-variant: small-caps;
+	font-style: normal;
+	font-family:Arial Narrow, sans-serif;
+	text-transform: uppercase;
+	font-size: 16px;
+}
+
+.badg-h3 { 
+	font-weight: 500;
+	font-style: normal;
+	font-family:Arial Narrow, sans-serif;
+	font-size: 19px;
+}
+
+.badge{
+	display:inline-block;
+	padding:.25em .4em;
+	font-size:75%;
+	font-weight:700;
+	line-height:1;
+	text-align:center;
+	white-space:nowrap;
+	vertical-align:baseline;
+	border-radius:.25rem;
+}
+	
+/*ženklelis*/	
+.badge-orange {
+	color:#fff;
+	background-color:#F88410;
+}
+.badge-orange[href]:focus,.badge-orange[href]:hover{
+	color:#fff;
+	text-decoration:none;
+	background-color:#FFA448;
+}
+
+/*paragrafinis tekstas dėstymas*/
+.talking { 
+    position: relative;
+    background: #E8E7E3;
+    color: #616060;
+    font-family: Arial;
+    font-size: 14px;
+    box-shadow: 3px 2px 7px -5px #A3A3A3;
+    text-align: left;
+    width: 255px;
+    height: 169px;
+    border-radius: 7px;
+    padding: 14px;
+    border: #f0f0f0 solid 8px;
+	margin-top:10px;
+}
+.talking:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 0;
+    z-index: 1;
+    border-style: solid;
+    border-color: #E8E7E3 transparent;
+    border-width: 20px 30px 0;
+    bottom: -20px;
+    left: 71%;
+    margin-left: -30px;
+}
+.talking:before {
+    content: '';
+    position: absolute;
+    width: 0;
+    z-index: 0;
+    border-style: solid;
+    border-color: #f0f0f0 transparent;
+    border-width: 28px 38px 0;
+    bottom: -32px;
+    left: 71%;
+    margin-left: -38px;
+    display: block;
+}
+li.bullet {
+	margin-left:30px;
+	margin-top: 10px;
+	padding: 0px 10px 0px 20px ;
+	
+	list-style-image: url("../../assets/img/bulet.png");
+}
