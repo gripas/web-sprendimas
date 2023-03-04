@@ -1,6 +1,10 @@
 @import url('fonts/quicksand.css');
 @import url('fonts/halant.css');
 @import url('fonts/prompt.css');
+/*
+*MiniFrame css karkasas Lic GNU
+*Author Name Darius Jakaitis, author web site http://www.manowebas.lt
+*/
 p {
     font-family: Halant, serif;
 	margin-top: 0;
